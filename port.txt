@@ -1,0 +1,4 @@
+1. To kill a process running on port:
+   cmd: lsof -n -i4TCP:8080
+   PID is the second field. Then, kill that process:
+   cmd: kill -9 PID
